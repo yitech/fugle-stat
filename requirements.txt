@@ -1,2 +1,5 @@
 fastapi
 pydantic-settings
+uvicorn
+TA-Lib
+git+https://github.com/yitech/fugledata-py.git
