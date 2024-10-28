@@ -1,0 +1,14 @@
+venv
+.env
+.idea
+*.cfg
+__pycache__
+logs
+.coverage
+*.http
+*.rest
+coverage.xml
+htmlcov
+.DS_Store
+.vscode
+openapitools.json
