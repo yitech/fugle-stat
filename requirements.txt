@@ -2,4 +2,7 @@ fastapi
 pydantic-settings
 uvicorn
 TA-Lib
+numpy<2.0.0
+Cython
+requests
 git+https://github.com/yitech/fugledata-py.git

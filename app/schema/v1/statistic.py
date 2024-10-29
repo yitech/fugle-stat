@@ -1,9 +1,12 @@
+from typing import Literal
 from pydantic import BaseModel
 
 
 class KLineMARequest(BaseModel):
+    symbol: str
     start_date: str
     end_date: str
+    category: Literal["open", "high", "low", "close"]
     period: int
 
 
