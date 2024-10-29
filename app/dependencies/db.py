@@ -25,7 +25,7 @@ def get_klines(symbol: str, start_date: str, end_date: str)->list[fugledata.mode
         "order": "dt"
     }
     try:
-        response = requests.get(url, timeout=5)
+        response = requests.get(url, params=params, timeout=5)
         # Raise an error for bad HTTP responses (4xx and 5xx)
         response.raise_for_status()
     except HTTPError as http_err:

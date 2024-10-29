@@ -1,5 +1,5 @@
-from .statistic import KLineMARequest
+from .statistic import KLineMAResponse
 
 __all__ = [
-    'KLineMARequest',
+    'KLineMAResponse'
 ]
